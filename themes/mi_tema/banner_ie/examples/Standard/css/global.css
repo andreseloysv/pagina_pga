@@ -1,0 +1,151 @@
+#container {
+    margin:0 auto;
+    position:relative;
+    z-index:0;
+}
+
+#example {
+    height:350px;
+    position:relative;
+}
+#example_2 {
+    position: absolute;
+    top: 0;
+    left: -700px;
+}
+
+#frame {
+    display: none;  
+}
+
+#slides {
+    z-index:100;
+}
+.slides_container {
+    overflow:hidden;
+    position:relative;
+    display:none;
+}
+
+.slides_container a {
+    height:370px;
+    display:block;
+}
+
+.slides_container a img {
+    display:block;
+}
+
+#slides .next,#slides .prev {
+    position:absolute;
+    top:107px;
+    left:-39px;
+    width:24px;
+    height:43px;
+    display:block;
+    z-index:101;
+}
+
+#slides .next {
+    left:585px;
+}
+
+
+
+#slides_2 {
+    top: 0;
+    left: -500px;
+    position: absolute;
+}
+
+.slides_container_2 {
+    overflow:hidden;
+    position:relative;
+    height:370px;
+}
+
+.slides_container_2 a {
+    height:370px;
+    display:block;
+}
+
+.slides_container_2 a img {
+    display:block;
+}
+
+#slides_2 .next,#slides .prev {
+    position:absolute;
+    top:107px;
+    left:-39px;
+    width:24px;
+    height:43px;
+    display:block;
+    z-index:101;
+}
+
+#slides_2 .next {
+    left:585px;
+}
+.imagen_fondo_banner{
+    float: left;
+    z-index: -1;
+    position: absolute;
+    width: 1600px;
+    overflow: hidden;
+}
+/*
+        Pagination
+*/
+
+.pagination {
+    margin:26px auto 0;
+    width:100px;
+}
+
+.pagination li {
+    float:left;
+    margin:0 1px;
+    list-style:none;
+}
+
+.pagination li a {
+    display:block;
+    width:12px;
+    height:0;
+    padding-top:12px;
+    background-image:url(../img/pagination.png);
+    background-position:0 0;
+    float:left;
+    overflow:hidden;
+}
+
+.pagination li.current a {
+    background-position:0 -12px;
+}
+
+/*
+        Footer
+*/
+
+#footer {
+    text-align:center;
+    width:580px;
+    margin-top:9px;
+    padding:4.5px 0 18px;
+    border-top:1px solid #dfdfdf;
+}
+
+#footer p {
+    margin:4.5px 0;
+    font-size:1.0em;
+}
+
+a:link,a:visited {
+    color: #000;
+    text-decoration:none;
+}
+
+a:hover,a:active {
+    color:#599100;
+    text-decoration:underline;
+}

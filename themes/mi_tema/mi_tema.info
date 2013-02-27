@@ -1,0 +1,37 @@
+name = Mi Tema
+description = The best tema EVA!
+version = VERSION
+core = 6.x
+engine = phptemplate
+
+scripts[] = jquery.js
+scripts[] = jquery_ui.js
+scripts[] = jquery_plugin.js
+scripts[] = slides.min.jquery.js
+scripts[] = modernizr.custom.04022.js
+
+
+stylesheets[all][] = css_jquery.css
+stylesheets[all][] = mi_estilo.css 
+
+stylesheets[all][] = demo.css 
+stylesheets[all][] = normalize.css 
+stylesheets[print][] = print.css
+stylesheets[all][] = style.css
+
+; Information added by drupal.org packaging script on 2012-05-02
+version = "6.26"
+project = "drupal"
+datestamp = "1335977158"
+
+	regions[left] = Left sidebar
+	regions[right] = Right sidebar
+	regions[content] = Content
+	regions[header] = Header
+	regions[footer] = Footer
+	
+	regions[articulo_a] = Articulo A
+	regions[articulo_b] = Articulo B
+	regions[articulo_c] = Articulo C
+	
+	regions[mapa] = Mapa del sitio
