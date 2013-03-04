@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+
 <?php
 drupal_flush_all_caches();
 db_query("DELETE FROM {cache};");
@@ -85,8 +87,8 @@ $nodo_actual = $pieces[2];
 
 include_once 'estilo.php';
 ?>
-<!DOCTYPE html"> 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php print $language->language ?>" lang="<?php print $language->language ?>" dir="<?php print $language->dir ?>">
+
+
     <head>
 	<?php print $head ?> 
         <title><?php print $head_title ?></title>
